@@ -1,5 +1,5 @@
 Problem Statement
-predict how many people will come to a park on a particular day, given the environmental information.
+Predict how many people will come to a park on a particular day, given the environmental information.
 
 Approach:
 
@@ -21,4 +21,6 @@ Have used a lag variable which indicates the footfall on the previous day.
 4) Evaluation
 I have calculated the RMSE values between te actual and the predicted footfall.
 
-
+Learnings:
+1) Use R for predictive analytics use cases
+2) Usage of Lag variable
