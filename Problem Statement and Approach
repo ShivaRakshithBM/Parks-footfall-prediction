@@ -1,0 +1,24 @@
+Problem Statement
+predict how many people will come to a park on a particular day, given the environmental information.
+
+Approach:
+
+Followed the below framework:
+
+1) Data understanding
+There are in total 18 variables - 17 independant and 1 dependant variable. The training set had 114,540 records
+All the variables were numeric. Some of them are - Average Breeze speed, Min moisture in park, Location type
+
+2) Data Preparation
+Blank / Null value treatment: 
+  a) There is about 30% Blank values in variables relating to pressure and pollution. So imputed the same with the empirical distribution      of the not null values
+  b) There are about 0.03% Blank values in variables relating to Moisture. So, imputed the same with the variable's median value
+
+3) Modelling
+Have used Linear Regression modelling to predict the footfall.
+Have used a lag variable which indicates the footfall on the previous day.
+
+4) Evaluation
+I have calculated the RMSE values between te actual and the predicted footfall.
+
+
